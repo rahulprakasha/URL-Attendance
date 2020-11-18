@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    STUDENT HOME PAGE
+  </title>
+  <link rel="stylesheet" href="CSS/student.css" type="text/css">
+  <script src="js/login.js"></script>
+</head>
+
+<body>
+  <div class="bg1">
+    <nav class="navbar">
+      <div class="nav-title">
+        INSTA ATTENDANCE
+      </div>
+      <div class="links">
+        <a>Lecture</a>
+        <a>View Attendance</a>
+        <a>Logout</a>
+      </div>
+    </nav>
+    <div class="container-area">
+      <div class="container">
+        <div class="box-title">
+        </div>
+        <div class="list1">
+          <label for="subject">Subject</label>
+          <select name="subjects" id="subject">
+            <option value="LD">LD</option>
+            <option value="SDM">SDM</option>
+            <option value="COA">COA</option>
+            <option value="OOJ">OOJ</option>
+            <option value="MMC">MMC</option>
+          </select>
+        </div>
+        <form onsubmit="return validate()"action="">
+          <input type="submit" value="Link" id="btn1">
+          <input type="text" id="output">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
